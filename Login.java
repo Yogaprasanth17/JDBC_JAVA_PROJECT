@@ -22,7 +22,7 @@ public class Login {
             }
         }
     }
-    
+    // signUp
     static void signUp() throws SQLException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the user name");
@@ -47,7 +47,7 @@ public class Login {
             System.out.println("Signuped sucessfully");
         }
     }
-
+    //login
     static void logIn() throws SQLException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the user name");
